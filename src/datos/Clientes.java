@@ -13,7 +13,7 @@ public class Clientes {
 
     private Integer edad;
     private Integer duracionTransaccion;
-    private Integer tiempoEspera;
+    private Integer tiempoEspera;   
 
     public Clientes() {
     }
