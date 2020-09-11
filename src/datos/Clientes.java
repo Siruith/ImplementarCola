@@ -5,23 +5,23 @@
  */
 package datos;
 
+import core.Base;
+
 /**
  *
  * @author Developer4
  */
-public class Clientes {
+public class Clientes extends Base {
 
     private Integer edad;
-    private Integer duracionTransaccion;
-    private Integer tiempoEspera;   
+    private Integer tiempoTransaccion;
 
     public Clientes() {
     }
 
-    public Clientes(Integer edad, Integer duracionTransaccion, Integer tiempoEspera) {
+    public Clientes(Integer edad, Integer tiempoTransaccion) {
         this.edad = edad;
-        this.duracionTransaccion = duracionTransaccion;
-        this.tiempoEspera = tiempoEspera;
+        this.tiempoTransaccion = tiempoTransaccion;
     }
 
     public Integer getEdad() {
@@ -32,25 +32,22 @@ public class Clientes {
         this.edad = edad;
     }
 
-    public Integer getDuracionTransaccion() {
-        return duracionTransaccion;
+    public Integer getTiempoTransaccion() {
+        return tiempoTransaccion;
     }
 
-    public void setDuracionTransaccion(Integer duracionTransaccion) {
-        this.duracionTransaccion = duracionTransaccion;
-    }
-
-    public Integer getTiempoEspera() {
-        return tiempoEspera;
-    }
-
-    public void setTiempoEspera(Integer tiempoEspera) {
-        this.tiempoEspera = tiempoEspera;
+    public void setTiempoTransaccion(Integer tiempoTransaccion) {
+        this.tiempoTransaccion = tiempoTransaccion;
     }
 
     @Override
     public String toString() {
-        return "Clientes{" + "edad=" + edad + ", duracionTransaccion=" + duracionTransaccion + ", tiempoEspera=" + tiempoEspera + '}';
+        return "Clientes{" + "edad=" + edad + ", tiempoTransaccion=" + tiempoTransaccion + '}';
+    }
+
+    @Override
+    public Base copy() {
+        return new Clientes(edad, tiempoTransaccion);
     }
 
 }

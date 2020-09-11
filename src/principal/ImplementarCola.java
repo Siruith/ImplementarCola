@@ -5,6 +5,10 @@
  */
 package principal;
 
+import core.Cola;
+import modelo.OperacionesCola;
+import datos.Clientes;
+
 /**
  *
  * @author Developer4
@@ -15,7 +19,8 @@ public class ImplementarCola {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+      
+
     }
-    
+
 }
