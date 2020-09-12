@@ -7,6 +7,7 @@ package core;
 
 import java.util.LinkedList;
 
+
 /*
  * Cola: Estructura de datos de tipo lista (LinkedList) que sigue un modelo en el cual
    el primer elemento en entrar es el primer elemento en salir.
