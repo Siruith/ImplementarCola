@@ -11,8 +11,13 @@ import core.Base;
 import core.Cola;
 
 /**
- *
- * @author Developer4
+ * Operaciones de la clase Cola.
+ * @author Jairo Vergara Portocarrero 2151714
+ * @author Jorge Enrique Moreno Barragan 2175321
+ * @author Juan David Mosquera Castro 2150186
+ * @author Sebastián Bejarano Cuero 2190853
+ * @date 16 Septiembre 2020
+ * @version 1.0
  */
 public class OperacionesCola<T extends Base> {
 

@@ -8,8 +8,15 @@ package datos;
 import core.Base;
 
 /**
- *
- * @author Developer4
+ * Cliente: Clase que funciona como elemento para el uso de la clase Cola. Contiene
+   los elementos necesarios para el funcionamiento del modelo de banco de esta
+   implementación.
+ * @author Jairo Vergara Portocarrero 2151714
+ * @author Jorge Enrique Moreno Barragan 2175321
+ * @author Juan David Mosquera Castro 2150186
+ * @author Sebastián Bejarano Cuero 2190853
+ * @date 16 Septiembre 2020
+ * @version 1.0
  */
 public class Clientes extends Base {
 
